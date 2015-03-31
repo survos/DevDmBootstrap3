@@ -35,4 +35,4 @@
 </div>
 <!-- end content container -->
 
-<?php get_footer(); ?>
+<?php get_footer();
