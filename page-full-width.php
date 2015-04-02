@@ -18,12 +18,8 @@ get_header();
 <?php get_template_part('template-part', 'topnav'); ?>
 
     <!-- start content container -->
-    <div class="row dmbs-content">
+    <div class="dmbs-content">
 
-        <?php //left sidebar ?>
-        <?php get_sidebar('left'); ?>
-
-        <div class="col-md-<?php devdmbootstrap3_main_content_width(); ?> dmbs-main">
 
             <?php // theloop
             if (have_posts()) : while (have_posts()) : the_post(); ?>
@@ -39,11 +35,6 @@ get_header();
                 <?php get_404_template(); ?>
 
             <?php endif; ?>
-
-        </div>
-
-        <?php //get the right sidebar ?>
-        <?php get_sidebar('right'); ?>
 
     </div>
     <!-- end content container -->
