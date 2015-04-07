@@ -1,3 +1,7 @@
 .navbar-inverse .navbar-nav > li > a {
     color: #eee;
 }
+
+.navbar {
+    border-radius: 0;
+}

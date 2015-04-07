@@ -13,7 +13,7 @@
 get_header();
 ?>
 
-<?php get_template_part('template-part', 'head'); ?>
+<?php get_template_part('template-part', 'head-fullwidth'); ?>
 
 <?php get_template_part('template-part', 'topnav'); ?>
 
