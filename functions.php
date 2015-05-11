@@ -32,6 +32,7 @@
         wp_enqueue_style( 'bootstrap.css');
         wp_enqueue_style( 'theme-main');
         wp_enqueue_style( 'stylesheet', get_stylesheet_uri(), array(), '1', 'all' );
+        wp_enqueue_style('fontawesome', '/components/font-awesome/css/font-awesome.css');
     }
     add_action('wp_enqueue_scripts', 'devdmbootstrap3_theme_stylesheets');
 
