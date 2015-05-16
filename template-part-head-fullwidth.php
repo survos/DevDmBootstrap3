@@ -20,8 +20,9 @@
             <div class="col-md-8 dmbs-header-text">
                 <?php if (get_header_textcolor() != 'blank') : ?>
                     <h1><a class="custom-header-text-color"
-                           href="<?php echo esc_url(home_url('/')); ?>"><?php bloginfo('name'); ?></a></h1>
-                    <h4 class="custom-header-text-color"><?php bloginfo('description'); ?></h4>
+                           href="<?php echo esc_url(home_url('/')); ?>"><?php bloginfo('name'); ?></a>
+                        <small class="custom-header-text-color"><?php bloginfo('description'); ?></small>
+                    </h1>
                 <?php endif; ?>
                 <?php else : ?>
                     <h1><a href="<?php echo esc_url(home_url('/')); ?>"><?php bloginfo('name'); ?></a></h1>
